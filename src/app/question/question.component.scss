@@ -1,0 +1,46 @@
+div {
+
+
+    background-color: white;
+    font-size: 20px;
+    padding: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 0 0 10px #37689581;
+    text-align: center;
+    width: 87.5%;
+    border-radius: 4px;
+    margin-bottom: 20px;
+
+
+
+
+    h3 {
+        //center the text
+        text-align: center;
+
+        font-family: 'Roboto', sans-serif;
+        color: #376795;
+        margin: 5px;
+
+    }
+
+    p {
+        //center the text
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        color: #95c11f;
+        margin: 5px;
+    }
+}
+
+div:hover {
+    box-shadow: 0 0 10px #376895;
+    cursor: pointer;
+    background-color: #376795;
+
+    h3 {
+        color: white;
+    }
+
+}
