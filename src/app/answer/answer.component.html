@@ -1,1 +1,5 @@
-<p>answer works!</p>
+<div *ngIf="this.answerServ.showAnswer">
+    <img (click)="close()" src="assets/image/close.png" alt="cross" />
+    <h3>{{this.answerServ.question.title}}</h3>
+    <p>{{this.answerServ.question.answer.description}}</p>
+</div>

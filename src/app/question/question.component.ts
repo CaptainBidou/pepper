@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Question } from '../class/question.class'
+import { AnswerService } from '../service/answer.service';
 
 @Component({
   selector: 'app-question',
@@ -10,11 +11,11 @@ import { Question } from '../class/question.class'
 
 export class QuestionComponent {
 
+  constructor(private answerService: AnswerService) { }
+
   @Input() question!: Question
 
   answer(): void {
-    console.log(this.question.answer);
+    this.answerService.sendAnswer(this.question);
   }
-
-  constructor() { }
 }

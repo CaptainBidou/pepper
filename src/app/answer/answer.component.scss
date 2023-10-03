@@ -1,0 +1,58 @@
+div {
+
+
+    h3 {
+        //center the text
+        text-align: center;
+
+        font-family: 'Roboto', sans-serif;
+        color: #376795;
+        margin: 5px;
+
+    }
+
+    background-color: white;
+    font-size: 20px;
+    padding: 20px;
+    margin-left: 4.5%;
+    margin-right: 5%;
+    position: absolute;
+    top: 10%;
+    font-size: 30px;
+    height: 80%;
+    box-shadow: 0 0 10px #37689581;
+    text-align: center;
+    width: 88%;
+    border-radius: 4px;
+    margin-bottom: 20px;
+
+
+    p {
+        //center the text
+
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        color: #95c11f;
+        margin: 5px;
+        margin-top: 5%;
+    }
+
+    img {
+        //put the cross in the top right corner
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 5%;
+        height: 10%;
+        margin: 5px;
+        margin-top: 10px;
+        margin-right: 10px;
+        z-index: 1;
+
+
+    }
+
+    img:hover {
+        cursor: pointer;
+    }
+}

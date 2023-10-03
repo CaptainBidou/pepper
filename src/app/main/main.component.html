@@ -1,2 +1,5 @@
-<h1>Bienvenue à IG2I</h1>
-<app-question *ngFor='let questionArrayEl of this.questions' [question]="questionArrayEl"></app-question>
+<h1 [ngClass]="this.answerServ.showAnswer?'blur':'notBlur'">Bienvenue à IG2I</h1>
+<app-question [ngClass]="this.answerServ.showAnswer?'blur':'notBlur'" *ngFor='let questionArrayEl of this.questions'
+    [question]="questionArrayEl"></app-question>
+<app-answer></app-answer>
+<img [ngClass]="this.answerServ.showAnswer?'blur':'notBlur'" src="assets/image/logo.png" alt="logo" />
